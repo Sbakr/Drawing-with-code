@@ -1,0 +1,40 @@
+background(217, 176, 176);
+fill(172, 145, 230);
+//body
+ellipse(200, 306, 150, 150);
+//head
+ellipse(200, 212, 80, 75);
+//feet
+ellipse(151, 364, 50, 50);
+ellipse(248, 364, 50, 50);
+//ears
+ellipse(171, 180, 25, 25);
+ellipse(232, 182, 25, 25);
+//arms
+ellipse(115, 276, 66, 30);
+ellipse(283, 276, 66, 30);
+//ear holes
+fill(255, 122, 122);
+ellipse(171, 180, 10, 10);
+ellipse(232, 182, 10, 10);
+//arm holes
+ellipse(104, 276, 20, 20);
+ellipse(294, 276, 20, 20);
+//paws
+ellipse(151, 364, 25, 25);
+ellipse(248, 364, 25, 25);
+//stomach
+ellipse(200, 306, 100, 100);
+//face eyes
+strokeWeight(10);
+stroke(84, 44, 44);
+point(183, 204);
+point(218, 204);
+//smile
+noFill();
+strokeWeight(2);
+arc(200, 225, 42, 25, 1, 184);
+//bellybutton
+fill(207, 83, 83);
+noStroke();
+triangle(198, 306, 212, 323, 185, 323);
